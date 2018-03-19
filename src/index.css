@@ -1,0 +1,29 @@
+html {
+  height: 100%;
+  font-size: 12px;  
+}
+
+body {
+  font-family: Courier, 'Open Sans', sans-serif;  
+  margin: 0;
+  padding: 0;
+  background: #303633 no-repeat center center fixed;
+  background-size: cover;
+}
+
+@media screen and (min-width: 320px) {
+  html {
+    font-size: calc(12px + 5 * (100vw - 320px) / 900); 
+  }
+}
+
+@media screen and (min-width: 900px) {
+  html {
+    font-size: 20px;
+  }
+}
+
+
+* {
+  box-sizing: border-box
+}

@@ -1,0 +1,21 @@
+{
+  "name": "my-app",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "classnames": "^2.2.5",
+    "custom-react-scripts": "0.2.1",
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0",
+    "react-sound": "^0.8.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build && react-snap",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "react-snap": "^0.6.2"
+  }
+}

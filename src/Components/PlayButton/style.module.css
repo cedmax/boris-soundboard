@@ -1,0 +1,33 @@
+.button {
+  flex: 0 0 32%;
+  margin-bottom: 2.5vh;
+}
+
+.button {
+  font-size:100%;
+  font-family: Courier, 'Open Sans', sans-serif;  
+  background-color:#6fba26;
+  padding:10px;
+  text-align: center;
+  border: 0;
+  position:relative;
+  line-height: 1.4;
+  text-decoration:none;
+  color:#fff;
+  box-shadow: inset 0px 1px 0px #b2f17f, 0px 6px 0px #3d6f0d;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.button:focus { outline: none; }
+
+.button:active, .button.playing  {
+  top:7px;
+  box-shadow: inset 0px 1px 0px rgb(33,149,191), inset 0px -1px 0px #3d6f0d;
+  color: #156785;
+  text-shadow: 0px 1px 1px rgba(255,255,255,0.3);
+  background: rgb(44,160,202);
+}

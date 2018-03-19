@@ -1,0 +1,13 @@
+.app {
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+  padding: 1.5% 1% 0;
+  flex-wrap: wrap;
+}
+
+.app::after {
+  content: '';
+  flex: 0 0 32%;
+  margin-bottom: 2.5vh;
+}
